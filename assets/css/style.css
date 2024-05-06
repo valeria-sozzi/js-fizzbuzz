@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkblue;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+.title{
+   text-align: center;
+   color: white; 
+   font-size: 3rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col{
+    width: calc(100% / 7 - 2rem);
+    margin: 1rem;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: deepskyblue;
+}
+
+.bg_green{
+    background-color: green;
+}
+
+.bg_red{
+    background-color: darkred;
+}
+
+.bg_yellow{
+    background-color: yellow;
+}
